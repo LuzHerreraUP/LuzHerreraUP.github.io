@@ -1,0 +1,49 @@
+.cuadrito {
+    height: 30px;
+    width: 30px;
+
+}
+
+#cuadrito0 {
+    border: 15px inset pink;
+    height: 300px;
+    width: 300px;    
+}
+
+ #cuadrito1{
+    border: 10px inset yellowgreen;
+    float: left;
+    position: relative;
+    top:0%;
+}
+
+#cuadrito2{
+    border: 10px inset palevioletred;
+    float: right;
+    position: relative;
+    top:0%;
+}
+
+#cuadrito3{
+    border: 10px inset plum;
+    float: left;
+    position: relative;
+    top:83%;
+    left:-50px;
+}
+
+#cuadrito4{
+    border: 10px inset purple;
+    float: right;
+    position: relative;
+    top:83%;
+    right:-50px;
+}
+
+#cuadrito5{
+    border: 10px inset lightskyblue;
+    float: left;
+    position: relative;
+    top:40%;
+    left:25px;
+}

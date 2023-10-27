@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <title>CANVAS</title>
+    <script type="text/javascript">
+        window.onload= function(){
+            let canvas= document.getElementById("myCanvas");
+            let ctx= canvas.getContext("2d");
+            //dibujar cosas aqui
+            ctx.beginPath();
+            //Cara
+            ctx.arc(100,100,80,0, Math.PI*2, false);
+            //Sonrisa
+            ctx.moveTo(160,100);
+            ctx.arc(100,100,60,0, Math.PI, false);
+            //Ojo Izquierdo
+            ctx.moveTo(75,70);
+            ctx.arc(65, 70, 10,0, Math.PI*2, true);
+            //Ojo Derecho
+            ctx.moveTo(135,70);
+            ctx.arc(125, 70, 10,0, Math.PI*2, true);
+            ctx.stroke();
+
+            ctx.lineWidth=5;
+            ctx.stroke();
+        };
+    </script>
+    </head> 
+    <body> 
+     <canvas id="myCanvas" width="300" height="200"></canvas>   
+    </body>
+
+</html>

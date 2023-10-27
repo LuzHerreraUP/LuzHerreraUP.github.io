@@ -1,0 +1,32 @@
+
+<html>
+    <title>Canvas2.0</title>
+    <script type="text/javascript">
+        window.onload= function(){
+            let canvas= document.getElementById("myCanvas");
+            let context= canvas.getContext("2d");
+            //dibujar cosas aqui
+            context.beginPath();
+            //Cara
+            context.arc(100,100,80,0, Math.PI*2, false);
+            //Sonrisa
+            context.moveTo(160,100);
+            context.arc(100,100,60,0, Math.PI, false);
+            //Ojo Izquierdo
+            context.moveTo(75,70);
+            context.arc(65, 70, 10,0, Math.PI*2, true);
+            //Ojo Derecho
+            context.moveTo(135,70);
+            context.arc(125, 70, 10,0, Math.PI*2, true);
+            context.stroke();
+
+            context.lineWidth=5;
+            context.stroke();
+        };
+    </script>
+    </head> 
+    <body> 
+     <canvas id="myCanvas" width="300" height="200"></canvas>   
+    </body>
+
+</html>

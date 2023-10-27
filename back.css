@@ -1,0 +1,13 @@
+#panda {
+    background-image: url("panda.avif");
+    width: 338px;
+    height: 338px;
+}
+
+#texto {
+    position: relative;
+    top: 6%;
+    text-align: center;
+    border: 5px dotted blue;
+    padding: 10px;
+}
