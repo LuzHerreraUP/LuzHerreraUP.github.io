@@ -1,0 +1,5 @@
+const API_call = async() => {
+    const APIResponse = await fetch('htpps://fakestoreapi.com/products);
+    const productos = await APIResponse.json();
+    
+}
